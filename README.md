@@ -43,4 +43,4 @@
 হোম পেজের নিচে **🔄 রিফ্রেশ** বোতাম চাপুন (পুরোনো ক্যাশ মুছে নতুন ফাইল আনে)।
 
 ## ফাইল কাঠামো
-`index.html` (পুরো অ্যাপ) · `sw.js` (অফলাইন) · `manifest.webmanifest` · `icons/` (লোগো + আইকন; `logo-original.png` আপনার মূল ছবি) · `.github/workflows/pages.yml` · `LICENSE` (MIT)
+`index.html` (পুরো অ্যাপ) · `sw.js` (অফলাইন) · `manifest.webmanifest` · `icons/` (লোগো + আইকন) · `.github/workflows/pages.yml` · `LICENSE` (MIT)
