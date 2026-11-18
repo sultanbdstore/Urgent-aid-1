@@ -44,3 +44,10 @@
 
 ## ফাইল কাঠামো
 `index.html` (পুরো অ্যাপ) · `sw.js` (অফলাইন) · `manifest.webmanifest` · `icons/` (লোগো + আইকন) · `.github/workflows/pages.yml` · `LICENSE` (MIT)
+
+## 📲 "This app cannot be installed" দেখালে
+1. হোম পেজে সবুজ বোতাম **"ইনস্টল করুন / ইনস্টল না হলে এখানে"** চাপুন — পরীক্ষা পাতা দেখাবে কোন ফাইল (manifest, icons, sw.js) পাওয়া যাচ্ছে না।
+2. `manifest.webmanifest` বা `icons/` আপলোড না হলেও অ্যাপ নিজের ভেতরের (বিল্ট-ইন) manifest ও আইকন দিয়ে ইনস্টল চালু রাখে।
+3. অবশ্যই **GitHub Pages-এর https লিংক** Chrome-এ খুলুন (ফাইল থেকে বা অন্য অ্যাপের ব্রাউজারে নয়)।
+4. Chrome মেনু → **Install app / Add to Home screen**। আগে ভুলভাবে "shortcut" যোগ হয়ে থাকলে সেটি মুছে আবার চেষ্টা করুন।
+5. পুরোনো ক্যাশ থাকলে: ওই পরীক্ষা পাতার **"🔄 পুরোনো ক্যাশ মুছে নতুন করে লোড"** চাপুন।
